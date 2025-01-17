@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+.invoice-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+.logo, .logo-bottom {
+    text-align: left;
+}
+.logo img, .logo-bottom img {
+    max-width: 150px;
+}
+.business-info {
+    flex: 1;
+    text-align: left;
+    padding-left: 20px;
+}
+.invoice-details {
+    text-align: right;
+}
+.invoice-info, .billing-info, .items, .total, .payment-terms, .notes {
+    margin-bottom: 20px;
+}
+.items table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.items table, .items th, .items td {
+    border:2px solid black;
+}
+.items th, .items td {
+    padding: 10px;
+    text-align: left;
+}
+.total {
+    text-align: right;
+}
+.total hr {
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 10px 0;
+}
+[contenteditable="true"] {
+    background-color: #f9f9f9;
+    padding: 2px 5px;
+    border: 1px dashed #ccc;
+}
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #555;
+}
+footer {
+    text-align: right;
+    margin-top: 20px;
+}
